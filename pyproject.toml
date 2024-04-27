@@ -1,0 +1,38 @@
+[build-system]
+
+[project]
+name = "Python Project Template"
+version = "2020.0.0"
+dependencies = [
+]
+requires-python = ">=3.8"
+authors = [
+  { name = "Say-re", email = "sayre@naturalistscc.com"}
+]
+maintainers = [
+  { name = "Say-re", email = "sayre@naturalistscc.com"}
+]
+description = "Insert Project Description"
+readme = "README.md"
+license = {file = "LICENSE.txt"}
+keywords = []
+classifiers = [
+  "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+gui = []
+cli = []
+
+[project.urls]
+Homepage = "https://example.com"
+Documentation = "https://readthedocs.org"
+Repository = "https://github.com/me/spam.git"
+"Bug Tracker" = "https://github.com/me/spam/issues"
+Changelog = "https://github.com/me/spam/blob/master/CHANGELOG.md"
+
+[project.scripts]
+
+[project.gui-scripts]
+
+[project.entry-points]
